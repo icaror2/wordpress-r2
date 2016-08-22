@@ -11,7 +11,7 @@ get_header(); ?>
 
 <meta property='og:image' content='<?php echo get_template_directory_uri(); ?>/assets/img/meta/thumbnail.jpg'/>
 
-<div id="content">
+<div id="content" class="reading reading-search">
 	<!-- BREADCRUMB -->
 	<div class="bread-crumb" typeof="BreadcrumbList" vocab="http://schema.org/">
 	    <div class="container">

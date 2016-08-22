@@ -19,7 +19,7 @@ get_header(); ?>
 
 <meta property='og:image' content='<?php echo $post_thumbnail_url; ?>'/>
 
-<div id="content">
+<div id="content" class="reading reading-single reading-single-galerias">
 	<!-- BREADCRUMB -->
 	<div class="bread-crumb" typeof="BreadcrumbList" vocab="http://schema.org/">
 	    <div class="container">
@@ -36,7 +36,7 @@ get_header(); ?>
 	</div>
 
 	<!-- ARTICLE -->
-	<article id="page" class="single-galerias single-galerias-<?php echo $post->ID; ?>">
+	<article id="page" class="single-galerias-<?php echo $post->ID; ?>">
 		<main class="page-container">
 			<div class="container">
 				<div class="row">
@@ -75,7 +75,6 @@ get_header(); ?>
 
 									        <?php endforeach; ?>
 										<?php endif; ?>
-									
 								</div>
 							</div>
 						</div>

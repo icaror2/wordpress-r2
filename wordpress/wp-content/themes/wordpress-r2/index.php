@@ -18,7 +18,7 @@ get_header(); ?>
 
 <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/assets/img/meta/thumbnail.jpg">
 
-<div id="content">
+<div id="content" class="home-content">
 	<!-- SLIDER -->
 	<section id="slider">
 		<h2 class="hide">Destaques</h2>

@@ -19,7 +19,7 @@ get_header(); ?>
 
 <meta property='og:image' content='<?php echo $post_thumbnail_url; ?>'/>
 
-<div id="content">
+<div id="content" class="reading reading-page">
 	<!-- BREADCRUMB -->
 	<div class="bread-crumb" typeof="BreadcrumbList" vocab="http://schema.org/">
 	    <div class="container">

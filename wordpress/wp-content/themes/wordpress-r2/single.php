@@ -25,7 +25,7 @@ get_header(); ?>
 
 <meta property='og:image' content='<?php echo $post_thumbnail_url; ?>'/>
 
-<div id="content">
+<div id="content" class="reading reading-single">
 	<!-- BREADCRUMB -->
 	<div class="bread-crumb" typeof="BreadcrumbList" vocab="http://schema.org/">
 	    <div class="container">
@@ -42,7 +42,7 @@ get_header(); ?>
 	</div>
 
 	<!-- ARTICLE -->
-	<article id="page" class="single single-<?php echo $post->ID; ?><?php echo $categoryclass; ?>">
+	<article id="page" class="single-<?php echo $post->ID; ?><?php echo $categoryclass; ?>">
 		<main class="page-container">
 			<div class="container">
 				<div class="row">

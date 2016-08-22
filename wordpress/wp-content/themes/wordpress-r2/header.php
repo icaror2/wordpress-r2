@@ -78,11 +78,9 @@
 
 <body <?php body_class(); ?>>
 
-<div class="loading">
-    <p><i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw margin-bottom"></i></p>
-</div>
-<div id="wrapper">
-    
+    <div class="loading">
+        <p><i class="fa fa-circle-o-notch fa-spin fa-3x fa-fw margin-bottom"></i></p>
+    </div>
     <!-- RESPONSIVE MENU -->
     <header id="header">
         <div id="menu">
