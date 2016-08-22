@@ -1,0 +1,19 @@
+1. INSTALAR WORDPRESS CUSTOM R2
+2. CONFIGURAÇÃO SUBTRATIVA
+	* Atualizar URL no DB
+	* Atualizar Nome no Painel
+	* Favicon e Thumbails
+	* Custom Loading
+	* Analytics, Mailchimp e Instagram Feed
+	* Desabilitar Plugins Desnecessários
+2. CONFIGURAÇÃO ADITIVA
+	* Salvar Assets (Imagens)
+	* Adicionar Fonts
+	* Criar Post Types Necessários(com alguns Lorem Ipsum para Demo)
+	* Configurar Menu
+3. RECORTE
+	* Configurar .sass
+	* Html > Css
+4. FINALIZAR
+	* Minificar Código (Ativar Plugin)
+	* Configurar Usuário para Cliente

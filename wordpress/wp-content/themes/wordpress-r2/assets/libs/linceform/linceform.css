@@ -1,0 +1,56 @@
+/* Structure */
+.lince-input {
+	position: relative;
+	width: 100%;
+}
+.lince-input label {
+	display: block;
+	margin: 0;
+}
+
+/* Select */
+.select {
+	cursor: pointer;
+	position: relative;
+	background: white;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+}
+.select span:after {
+	content:"";
+	display: block;
+	float: right;
+}
+.select ul {
+	transition: 0.5s;
+	position: absolute;
+	opacity: 0;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: white;
+	box-shadow: 0 3px 10px rgba(0,0,0,.1),0 3px 5px rgba(0,0,0,.1);
+}
+.select ul li {
+	transition: 0.5s;
+	list-style: none;
+	padding: 10px;
+}
+.select ul li.checked {
+	background: #333;
+	color: white;
+}
+.select ul li:hover {
+	background: #b4b4c4;
+}
+.select.open ul {
+	opacity: 1;
+	z-index: 10;
+	height: auto;
+}

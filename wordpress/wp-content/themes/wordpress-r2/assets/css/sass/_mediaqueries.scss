@@ -1,0 +1,72 @@
+/* ==========================================================================
+   8. Media Queries - 
+   ========================================================================== */
+
+@media (max-width: 1200px) {
+	
+}
+@media (max-width: 992px) {
+	/* PAGE & SINGLE - TEMPLATE SHIT */
+	.post + .post {
+		margin-top: 30px;
+	}
+	/*DISPLAY SHIT*/
+	.tablet {
+		display: block;
+	}
+	.slider-container .cycle-slideshow {
+		height: auto;
+	}
+	.slider-container .display-container {
+		display: block;
+	}
+	.slider-container .display-container .txt {
+		position: absolute;
+		top: 40%;
+		z-index: 999;
+		width: 100%;
+		text-align: center;
+		padding: 20px;
+	}
+	.slider-container .display-next,
+	.slider-container .display-prev {
+		display: none;
+	}
+}
+@media (max-width: 768px) {
+	/* MENU - TEMPLATE SHIT */
+	#menu {
+		padding: 0;
+	}
+	.navbar-collapse li {
+		float: none;
+	}
+	.navbar-collapse a {
+		padding: 0;
+		line-height: 45px;
+	}
+	/* Sub Menu Things */
+	.navbar-collapse .sub-menu {
+		max-height: 0px!important;
+		padding: 0 0 0 20px;
+		margin: 0;
+		overflow: hidden;
+		opacity: 0;
+		transition: 1s ease;
+	}
+	.navbar-collapse .menu-item-has-children.opened .sub-menu {
+		max-height: 200px!important;
+		opacity: 1;
+	}
+
+	/* CONTATO - TEMPLATE SHIT */
+	.label-file span {
+		display: none;
+	}
+
+	/*GALLERY WP SHIT*/
+	.gallery-item {
+		width: 100%;
+		max-width: 100%!important;
+	}
+}

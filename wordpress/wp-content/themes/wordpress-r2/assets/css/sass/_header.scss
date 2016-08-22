@@ -1,0 +1,43 @@
+/* ==========================================================================
+   4. Header - The top of every page
+   ========================================================================== */
+
+/* MENU - TEMPLATE SHIT */
+.navbar-brand a img,
+.navbar-brand a svg {
+	height: 60px;
+	width: auto;
+}
+.navbar-brand .mobile a {
+  line-height: 50px;
+}
+
+.navbar-collapse {
+	float: right;
+}
+.navbar-collapse li {
+	float: left;
+}
+.navbar-collapse a {
+    display: block;
+    padding: 0 20px;
+    line-height: 60px;
+}
+.primary-menu:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#menu {
+	padding: 20px 0;
+}
+
+/* MENU - CUSTOM */
+#header {
+  position: relative;
+  z-index: 999;
+}
+
+.current-menu-item {
+  
+}

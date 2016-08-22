@@ -1,0 +1,74 @@
+/* ==========================================================================
+   3. Utilities - These things get used a lot
+   ========================================================================== */
+
+// Clear Fix
+.clear-fix:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+// Zebra FX
+tbody tr:nth-child(odd) {
+  background-color: #ccc;  
+}
+
+// Floats
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+// Childs Center
+.center {
+  text-align: center;
+}
+
+// Hidden Element
+.hide {
+  display: none;
+}
+
+// Bootstrapfix Padding
+.nopadding {
+  padding: 0;
+}
+
+// Mobile Elements
+.mobile,
+.tablet {
+  display: none;
+}
+.nomobile,
+.notablet {
+  display: block;
+}
+@media (max-width: 992px) {
+  .tablet {
+    display: block;
+  }
+  .notablet {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .mobile {
+    display: block;
+  }
+  .nomobile {
+    display: none;
+  }
+}
+
+// Thumb
+.thumb .thumb-img {
+  height: 100%;
+  width: 100%;
+  background-size: cover!important;
+}
+.thumb img {
+  display: none;
+}
